@@ -1,6 +1,12 @@
 #results {
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
