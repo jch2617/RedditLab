@@ -1,4 +1,8 @@
-<h2> {{ redditPost.title }}</h2>
-<br>
-<!-- <p>{{ redditPost.title }}</p>
-<p>{{ redditPost.title }}</p> -->
+<div class="card">
+    <img src="{{ redditPost.thumbnail }}">
+    <div class="card-body">
+        <h5 class="card-title">{{ redditPost.title }} </h5>
+        <p class="card-text">{{ redditPost.selftext }}</p>
+        <a href="{{ redditPost.url }}" class="btn btn-primary">See Original Post</a>
+    </div>
+</div>
